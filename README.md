@@ -15,8 +15,6 @@
 
 <!-- ====================== INTRO ====================== -->
 
-## 👋 Welcome
-
 ```typescript
 const rishab = {
   role: 'AWS Backend Engineer & Full-Stack JS Developer',
@@ -81,6 +79,7 @@ I treat every day as a chance to pick up something new - a tool, a pattern, or a
 ### Cloud & DevOps
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=FF9900)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
 ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
 ![ECS](https://img.shields.io/badge/ECS%20%2F%20Fargate-FF9900?style=for-the-badge&logo=amazonecs&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
@@ -113,28 +112,118 @@ I treat every day as a chance to pick up something new - a tool, a pattern, or a
 
 <!-- ====================== FEATURED PROJECTS ====================== -->
 
-## 🚀 Featured Projects
+## 🛠️ Things I've Built
 
-| Project                                            | Tech                                      |                                                            |
-| :------------------------------------------------- | :---------------------------------------- | :--------------------------------------------------------- |
-| **OpenTickets** - multi-tenant SaaS ticketing      | AWS Amplify · Lambda · DynamoDB · AppSync | [Live](https://opentickets.io)                             |
-| **Bulk Email Processor** - queue-based bulk mailer | NestJS · Next.js · BullMQ · Redis         | [Code](https://github.com/Rishabsrma/Bulk-Email-Processor) |
-| **Page Pavilion** - library management system      | Next.js · TypeScript · PostgreSQL · Redis | [Live](https://page-pavilion.vercel.app)                   |
-| **MERN Real Estate** - property listings           | MongoDB · Express · React · Node          | [Live](https://mern-estate-c43v.onrender.com)              |
-| **NuAndroids** - event site + CMS                  | Next.js · Sanity CMS                      | [Live](https://nuandroids.com)                             |
+A selection of production systems and personal projects — from multi-tenant SaaS to distributed job processing.
 
-<br />
+<details open>
+  <summary><b>🌟 Transcendental Types</b> — Enterprise AI SaaS · <code>Featured</code></summary>
+  <br />
 
-<!-- ====================== GITHUB STATS ====================== -->
+Multi-tenant AI web platform with secure auth and billing, deployed as white-labeled enterprise instances.
 
-## 📊 GitHub Stats
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth-6D28D9?style=flat-square&logo=auth0&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Multi-tenant](https://img.shields.io/badge/Multi--tenant-2563EB?style=flat-square)
+![Billing](https://img.shields.io/badge/Billing-8B5CF6?style=flat-square&logo=stripe&logoColor=white)
 
-<div align="center">
+🔗 [ttypes.ai](https://ttypes.ai/)
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rishabsrma&show_icons=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=2563EB&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishabsrma&layout=compact&hide_border=true&title_color=8B5CF6&text_color=c9d1d9&bg_color=0d1117" alt="Top Languages" />
+</details>
 
-</div>
+<details open>
+  <summary><b>🎫 OpenTickets</b> — Multi-tenant SaaS ticketing · <code>Featured</code></summary>
+  <br />
+
+Serverless ticketing platform giving each client a dedicated admin portal, with real-time GraphQL.
+
+![AWS Amplify](https://img.shields.io/badge/AWS%20Amplify-FF9900?style=flat-square&logo=awsamplify&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![AppSync](https://img.shields.io/badge/AppSync-E535AB?style=flat-square&logo=awsamplify&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+
+🔗 [opentickets.io](https://opentickets.io/)
+
+</details>
+
+<details open>
+  <summary><b>📚 Page Pavilion</b> — Library management + admin dashboard · <code>Featured</code></summary>
+  <br />
+
+Full-stack library system with a public app and admin dashboard, Redis caching, and secure auth.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Auth.js](https://img.shields.io/badge/Auth.js-000000?style=flat-square&logo=auth0&logoColor=white)
+
+🔗 [page-pavilion.vercel.app](https://page-pavilion.vercel.app/)
+
+</details>
+
+<details>
+  <summary><b>📧 Bulk Email Processor</b> — Queue-driven bulk email at scale</summary>
+  <br />
+
+Sends thousands of emails via background queue workers, with real-time job progress tracking.
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-EC1C24?style=flat-square&logo=redis&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+🔗 [GitHub](https://github.com/Rishabsrma/Bulk-Email-Processor)
+
+</details>
+
+<details>
+  <summary><b>🏠 MERN Real Estate</b> — Real estate listing platform</summary>
+  <br />
+
+Real estate app on the MERN stack with a responsive UI, REST APIs, and Redux state management.
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+
+🔗 [mern-estate-c43v.onrender.com](https://mern-estate-c43v.onrender.com/)
+
+</details>
+
+<details>
+  <summary><b>🏥 Hospital Management System</b> — Scheduling + voice assistant</summary>
+  <br />
+
+Django hospital system with a Google Calendar API voice assistant for appointment scheduling.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Google Calendar API](https://img.shields.io/badge/Google%20Calendar%20API-4285F4?style=flat-square&logo=googlecalendar&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+</details>
+
+<details>
+  <summary><b>📱 NuAndroids</b> — Event website · Sanity CMS</summary>
+  <br />
+
+Event site powered by Sanity CMS for dynamic content, blog posts, and real-time publishing.
+
+![Sanity CMS](https://img.shields.io/badge/Sanity%20CMS-F03E2F?style=flat-square&logo=sanity&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+🔗 [nuandroids.com](https://nuandroids.com/)
+
+</details>
 
 <br />
 
