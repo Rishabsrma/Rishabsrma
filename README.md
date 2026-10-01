@@ -18,7 +18,7 @@
 ```typescript
 const rishab = {
   role: 'AWS Backend Engineer & Full-Stack JS Developer',
-  experience: '3+ years',
+  experience: '4+ years',
   focus: ['Serverless & Cloud', 'Scalable APIs', 'IoT'],
   exploring: 'Distributed systems & system design',
   location: 'Kathmandu, Nepal',
@@ -31,7 +31,7 @@ const rishab = {
 
 ## 🧠 About Me
 
-I'm a backend engineer from Kathmandu who spends most of the day in AWS, NestJS, and the occasional React frontend. Over the last three years I've built SaaS platforms, IoT backends, and background-job systems that need to stay up and keep up.
+I'm a backend engineer from Kathmandu who spends most of the day in AWS, NestJS, and the occasional React frontend. Over the last four years I've built SaaS platforms, IoT backends, and background-job systems that need to stay up and keep up.
 
 A few things I care about:
 
